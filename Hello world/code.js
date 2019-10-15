@@ -14,11 +14,11 @@ class Vector{
     }
 }
 
-
-
-
-
-
+let v1=new Vector(10, 4);
+let v2=new Vector(3, 4);
+console.log(v1.module());
+console.log(v2.module());
+console.log(v1.egale(v2));
 
 // function vect(x, y){
 //     this.x = x;
@@ -31,30 +31,6 @@ class Vector{
 //     if(v.x == this.x && v.y == this.y) return true ;
 //     return false ;
 // }
-
-let v1=new Vector(10, 4);
-let v2=new Vector(3, 4);
-console.log(v1.module());
-console.log(v2.module());
-console.log(v1.egale(v2));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 // console.log("Hello World!");

@@ -1,0 +1,1 @@
+document.write('<form ><label for="Status">Status :  </label><input class = "textinput" type="text" value = "Vous Avez reussi" name="value1"><input type = "submit"></form>');
