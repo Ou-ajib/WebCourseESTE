@@ -1,1 +1,10 @@
 var a = "1", b = "2", c = a + b ;
+console.log("A : "+ a +" Type : "+ typeof(a));
+console.log("B : "+ b +" Type : "+ typeof(b));
+console.log("C : "+ c +" Type : "+ typeof(c));
+a = parseInt(a);
+b = parseInt(b);
+c = parseInt(c);
+console.log("A : "+ a +" Type : "+ typeof(a));
+console.log("B : "+ b +" Type : "+ typeof(b));
+console.log("C : "+ c +" Type : "+ typeof(c));
